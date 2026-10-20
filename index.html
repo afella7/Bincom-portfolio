@@ -1,0 +1,483 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Raphaael | Portfolio</title>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <header class="site-header">
+      <nav class="navbar">
+        <a href="#home" class="logo"> RAPH<span>DEV.</span> </a>
+
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Open navigation"
+          aria-expanded="false"
+          aria-controls="nav-links"
+        >
+          ☰
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section id="home" class="hero">
+        <div class="hero-content">
+          <p class="greeting">HELLO, I'M RAPHAEL</p>
+
+          <h1>Building digital experiences that matter.</h1>
+
+          <p class="hero-description">
+            I'm a full-stack developer passionate about building functional,
+            intuitive and impactful software solutions.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary"> View My Projects </a>
+
+            <a href="#contact" class="btn btn-outline"> Contact Me </a>
+          </div>
+        </div>
+
+        <div class="hero-image">
+          <img src="images/profile.jpg" alt="Portrait of Raphael" />
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="about-section">
+        <div class="section-heading">
+          <p class="section-label">GET TO KNOW ME</p>
+          <h2>About Me</h2>
+        </div>
+
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              I'm Raphael Maduagwu, a full-stack software developer passionate
+              about building functional, responsive and user-friendly web
+              applications.
+            </p>
+
+            <p>
+              I work with React, JavaScript and TypeScript on the frontend, and
+              Node.js, Express and MongoDB on the backend.
+            </p>
+
+            <p>
+              I've contributed to SIMBI, an AI-powered study platform, working
+              with a cross-functional team to deliver backend services and
+              frontend features through a complete sprint cycle.
+            </p>
+
+            <p>
+              I'm currently pursuing a B.Sc. in Computer Science at the National
+              Open University of Nigeria, with additional training through
+              AltSchool Africa and Genesys Learnable.
+            </p>
+
+            <p>
+              Beyond coding, I bring experience in communication, teamwork,
+              problem-solving and technical documentation.
+            </p>
+          </div>
+
+          <div class="about-details">
+            <div class="detail-item">
+              <span>Location</span>
+              <strong>Enugu, Nigeria</strong>
+            </div>
+
+            <div class="detail-item">
+              <span>Specialization</span>
+              <strong>Full-stack Development</strong>
+            </div>
+
+            <div class="detail-item">
+              <span>Education</span>
+              <strong>B.Sc. Computer Science (Ongoing)</strong>
+            </div>
+
+            <div class="detail-item">
+              <span>Development Training</span>
+              <strong>AltSchool Africa & Genesys Learnable</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="skills-section">
+        <div class="section-heading">
+          <p class="section-label">WHAT I WORK WITH</p>
+          <h2>Technical Skills</h2>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h3>Frontend Development</h3>
+            <p>
+              HTML5, CSS3, JavaScript (ES6+), TypeScript, React.js, Responsive
+              Design
+            </p>
+          </div>
+
+          <div class="skill-card">
+            <h3>Backend Development</h3>
+            <p>
+              Node.js, Express.js, RESTful API Design, JWT Authentication,
+              Server-side Logic
+            </p>
+          </div>
+
+          <div class="skill-card">
+            <h3>Database</h3>
+            <p>MongoDB, Database Schema Design</p>
+          </div>
+
+          <div class="skill-card">
+            <h3>Tools & Practices</h3>
+            <p>
+              Git, GitHub, Vercel, Agile Development, Sprint Planning,
+              Cross-functional Collaboration, Technical Writing
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="projects-section">
+        <div class="section-heading">
+          <p class="section-label">SOME OF MY WORK</p>
+          <h2>Featured Projects</h2>
+        </div>
+
+        <div class="projects-grid">
+          <!-- SIMBI -->
+          <article class="project-card">
+            <div class="project-image">
+              <img
+                src="images/simbi.png"
+                alt="SIMBI study platform screenshot"
+              />
+            </div>
+
+            <div class="project-info">
+              <h3>SIMBI — AI Study Companion</h3>
+
+              <p>
+                An AI-powered study platform built with a cross-functional
+                development team. I developed RESTful APIs, authentication,
+                database architecture and contributed to the React quiz
+                interface.
+              </p>
+
+              <div class="project-tech">
+                <span>React</span>
+                <span>TypeScript</span>
+                <span>Node.js</span>
+                <span>Express</span>
+                <span>MongoDB</span>
+              </div>
+
+              <div class="project-links">
+                <a
+                  href="https://simbi-app.vercel.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Live Demo ↗
+                </a>
+
+                <a
+                  href="https://github.com/Learnable-team-10-BE/SIMBI"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GitHub ↗
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- ITORCHE -->
+          <article class="project-card">
+            <div class="project-image">
+              <img
+                src="images/itorche.png"
+                alt="ITORCHE construction website screenshot"
+              />
+            </div>
+
+            <div class="project-info">
+              <h3>ITORCHE — Construction Portfolio</h3>
+
+              <p>
+                A responsive construction company website I designed and
+                developed independently using HTML, CSS and JavaScript, then
+                deployed on Vercel.
+              </p>
+
+              <div class="project-tech">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+              </div>
+
+              <div class="project-links">
+                <a
+                  href="https://construction-site-app-eta.vercel.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Live Demo ↗
+                </a>
+
+                <a
+                  href="https://github.com/afella7/construction-site-app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GitHub ↗
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Experience Section -->
+      <section id="experience" class="experience-section">
+        <div class="section-heading">
+          <p class="section-label">MY PROFESSIONAL JOURNEY</p>
+          <h2>Work Experience</h2>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item">
+            <span class="timeline-date"> Dec 2023 - Nov 2025 </span>
+
+            <h3>Admin & Community Manager</h3>
+            <h4>Remarkable AI</h4>
+
+            <ul>
+              <li>
+                Handled customer feedback, complaints and support requests
+                through resolution.
+              </li>
+              <li>
+                Managed social media presence and online community engagement.
+              </li>
+              <li>
+                Coordinated internal communications and day-to-day operations.
+              </li>
+            </ul>
+          </article>
+
+          <article class="timeline-item">
+            <span class="timeline-date">2019</span>
+
+            <h3>Logistics & Documentation Intern</h3>
+            <h4>Nigerian Breweries PLC, Enugu</h4>
+
+            <ul>
+              <li>
+                Maintained shipment, delivery and inventory records during
+                industrial training in the Logistics department.
+              </li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <!-- Education Section -->
+      <section id="education" class="education-section">
+        <div class="section-heading">
+          <p class="section-label">ACADEMIC BACKGROUND</p>
+          <h2>Education</h2>
+        </div>
+
+        <div class="education-grid">
+          <article class="education-card">
+            <span class="education-status">Ongoing</span>
+            <h3>B.Sc. Computer Science</h3>
+            <p>National Open University of Nigeria</p>
+            <span>Enugu, Nigeria</span>
+          </article>
+
+          <article class="education-card">
+            <span class="education-status">2015 - 2021</span>
+            <h3>Mechanical Engineering (Attended)</h3>
+            <p>Nnamdi Azikiwe University</p>
+            <span>Awka, Nigeria</span>
+          </article>
+        </div>
+      </section>
+
+      <!-- Certifications Section -->
+      <section id="certifications" class="certifications-section">
+        <div class="section-heading">
+          <p class="section-label">CONTINUOUS LEARNING</p>
+          <h2>Certifications & Training</h2>
+        </div>
+
+        <div class="certifications-grid">
+          <div class="certification-card">
+            <h3>Backend Development</h3>
+            <p>Genesys Learnable Programme</p>
+            <span>June 2025</span>
+          </div>
+
+          <div class="certification-card">
+            <h3>Frontend Development</h3>
+            <p>AltSchool Africa</p>
+          </div>
+
+          <div class="certification-card">
+            <h3>JavaScript</h3>
+            <p>SoloLearn</p>
+            <span>January 2024</span>
+          </div>
+
+          <div class="certification-card">
+            <h3>HTML</h3>
+            <p>SoloLearn</p>
+            <span>May 2021</span>
+          </div>
+
+          <div class="certification-card">
+            <h3>CSS</h3>
+            <p>SoloLearn</p>
+            <span>August 2021</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Gallery Section -->
+      <section id="gallery" class="gallery-section">
+        <div class="section-heading">
+          <p class="section-label">BEYOND THE CODE</p>
+          <h2>Life in Pictures</h2>
+        </div>
+
+        <p class="gallery-intro">
+          A little glimpse into my life outside software development — friends,
+          memories and experiences.
+        </p>
+
+        <div class="gallery-grid">
+          <button class="gallery-item" type="button">
+            <img
+              src="images/photo1.jpeg"
+              alt="A personal photograph of Raphael"
+            />
+          </button>
+
+          <button class="gallery-item" type="button">
+            <img
+              src="images/photo2.jpeg"
+              alt="Raphael spending time with a friend"
+            />
+          </button>
+
+          <button class="gallery-item" type="button">
+            <img
+              src="images/photo3.jpeg"
+              alt="Raphael spending a day in the sun"
+            />
+          </button>
+
+          <button class="gallery-item" type="button">
+            <img src="images/photo4.jpeg" alt="Raphael and friends together" />
+          </button>
+
+          <button class="gallery-item" type="button">
+            <img src="images/photo5.jpeg" alt="A memorable occasion" />
+          </button>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="contact-section">
+        <div class="section-heading">
+          <p class="section-label">LET'S CONNECT</p>
+          <h2>Get In Touch</h2>
+        </div>
+
+        <p class="contact-description">
+          Interested in working together or have a project in mind? Feel free to
+          reach out.
+        </p>
+
+        <div class="contact-links">
+          <a href="mailto:afella71@gmail.com"> Email ↗ </a>
+
+          <a
+            href="https://linkedin.com/in/raphael-maduagwu-224711251"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn ↗
+          </a>
+
+          <a
+            href="https://github.com/afella7"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub ↗
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <p>&copy; 2026 Raphael Maduagwu.</p>
+      <p>Built with HTML, CSS & JavaScript.</p>
+    </footer>
+
+    <!-- Gallery Lightbox -->
+    <div
+      class="lightbox"
+      id="lightbox"
+      role="dialog"
+      aria-modal="true"
+      aria-label="Photo viewer"
+      aria-hidden="true"
+    >
+      <button
+        class="lightbox-close"
+        type="button"
+        aria-label="Close photo viewer"
+      >
+        &times;
+      </button>
+
+      <button class="lightbox-prev" type="button" aria-label="Previous photo">
+        &#10094;
+      </button>
+
+      <img class="lightbox-image" src="" alt="" />
+
+      <button class="lightbox-next" type="button" aria-label="Next photo">
+        &#10095;
+      </button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
